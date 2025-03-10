@@ -27,9 +27,11 @@ const Contact = () => {
     <div className="flex flex-col sm:flex-row items-center justify-center mx-4 my-4 bg-black w-full py-10 px-6">
       {/* Contact Box */}
       <div className="bg-[#140c1c] rounded-lg p-6 w-[90%] sm:w-[60%] md:w-[50%] lg:w-[40%] text-center">
-        <h1 className="text-bg font-bold text-2xl md:text-3xl lg:text-[2.5rem]">
-          Let's Work Together!
-        </h1>
+      <h1 className="text-bg font-bold text-2xl md:text-3xl lg:text-[2.5rem]">
+        {"Let's Work Together!"}
+      </h1>
+
+
         <p className="text-gray-200 mt-3 text-sm md:text-base">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ipsum aut voluptas laboriosam atque aperiam consectetur sit eos ea expedita dolor beatae accusamus corporis error voluptatem voluptatum in, ratione perspiciatis.
         </p>
