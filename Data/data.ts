@@ -137,31 +137,31 @@ export const skillsData = [
   {
     id: 6,
     title: "Java",
-    image: "/images/node.svg",
+    image: "/images/java.png",
     percent: "70%",
   },
   {
     id: 7,
     title: "Spring Boot",
-    image: "/images/mongo.svg",
+    image: "/images/spring.png",
     percent: "65%",
   },
   {
     id: 8,
     title: "MYSQL",
-    image: "/images/python.svg",
+    image: "/images/mysql.png",
     percent: "70%",
   },
   {
     id: 9,
     title: "PowerApss",
-    image: "/images/firebase.svg",
+    image: "/images/powerapps.png",
     percent: "75%",
   },
   {
     id: 10,
     title: "Next JS",
-    image: "/images/vue.svg",
+    image: "/images/Next.js.png",
     percent: "65%",
   },
 ];

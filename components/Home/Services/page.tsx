@@ -24,7 +24,7 @@ const Services = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: service.id * 0.2 }}
               viewport={{ once: true }}
-              className="bg-[#814CED] p-8 shadow-lg rounded-lg min-h-[250px] h-full flex flex-col items-center text-center"
+              className="bg-[#D6CC99] p-8 shadow-lg rounded-lg min-h-[250px] h-full flex flex-col items-center text-center"
             >
               {/* Service Icon */}
               <Image src={service.icon} alt={service.title} width={80} height={80} />
@@ -33,7 +33,7 @@ const Services = () => {
               <h2 className="text-xl font-semibold mt-4">{service.title}</h2>
 
               {/* Service Description */}
-              <p className="text-sm text-gray-200 mt-2">{service.description}</p>
+              <p className="text-sm text-black-200 mt-2">{service.description}</p>
             </motion.div>
           </Tilt>
         ))}

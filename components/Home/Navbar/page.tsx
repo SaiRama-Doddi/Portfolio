@@ -26,7 +26,7 @@ const Nav = ({ openNav }: Props) => {
   }, []);
 
   return (
-    <div className={`fixed h-[12vh] z-[10] w-full transition-all duration-700 ${navBg ? "bg-[#240b39]" : "fixed"}`}>
+    <div className={`fixed h-[12vh] z-[10] w-full transition-all duration-700 ${navBg ? "bg-[#31511E]" : "fixed"}`}>
       <div className="flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto">
         
         {/* Logo */}
@@ -50,7 +50,7 @@ const Nav = ({ openNav }: Props) => {
 
           {/* Button */}
           <div className="flex items-center space-x-4">
-            <button className="md:px-10 md:py-3 px-8 py-3 text-blue-800 font-semibold sm:text-base text-sm bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg cursor-pointer">
+            <button className="md:px-10 md:py-3 px-8 py-3 text-[#FDE5D4] font-semibold sm:text-base text-sm bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg cursor-pointer">
               Hire Me
             </button>
 
