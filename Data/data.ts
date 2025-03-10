@@ -51,20 +51,9 @@ export const servicesData = [
       "Efficient and scalable database management for your data needs.",
     icon: "/images/s5.png",
   },
+
   {
     id: 6,
-    title: "Real-Time Features",
-    description: "Add live chat, notifications, and real-time data updates.",
-    icon: "/images/s6.png",
-  },
-  {
-    id: 7,
-    title: "Speed Optimization",
-    description: "Boost performance with faster load times and optimization.",
-    icon: "/images/s7.png",
-  },
-  {
-    id: 8,
     title: "Website Management",
     description: "Easy content management systems with flexible controls.",
     icon: "/images/s8.png",
