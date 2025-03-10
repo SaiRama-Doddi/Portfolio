@@ -23,14 +23,14 @@ const About = () => {
            </div>
 
            <div className="flex items-center space-x-2 mb-6">
-            <div className="w-7 h-7 bg-blue-800 flex flex-col items-center justify-center">
+            <div className="w-7 h-7 bg-red-800 flex flex-col items-center justify-center">
              <FaCheck className="text-white" />
              </div>
              <p className="text-sm sm:text-base md:text-lg font-bold text-gray-300">Backend Development</p>
            </div>
 
            <div className="flex items-center space-x-2 mb-6">
-            <div className="w-7 h-7 bg-blue-800 flex flex-col items-center justify-center">
+            <div className="w-7 h-7 bg-green-800 flex flex-col items-center justify-center">
              <FaCheck className="text-white" />
              </div>
              <p className="text-sm sm:text-base md:text-lg font-bold text-gray-300">Full StackDevelopment</p>
