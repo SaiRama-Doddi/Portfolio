@@ -61,7 +61,7 @@ const page = () => {
             transition={{ duration: 0.8 }}
             className="mx-auto block rounded-[3rem] border-[3.5px] border-blue-950 overflow-x-hidden"
           >
-            <Image src={BaseInfo.profilePic} alt="profile" width={330} height={330} />
+            <Image src={BaseInfo.profilePic} alt="profile" width={350} height={350} />
           </motion.div>
         </div>
       </div>
