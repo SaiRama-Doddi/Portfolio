@@ -7,13 +7,13 @@ export const BaseInfo = {
 };
 
 export const aboutInfo = {
-  title: "Crafting Web Application with Passion and Precision",
+  title: "Crafting Full Stack Application with Passion and Precision",
   description:
     "At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
-  client: "50+",
-  experience: "3+",
-  project: "200+",
-  website: "100+",
+ /*  client: "50+", */
+  experience: "1+",
+  project: "20+",
+  website: "30+",
 };
 
 export const servicesData = [
