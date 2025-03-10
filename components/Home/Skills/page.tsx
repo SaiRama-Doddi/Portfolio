@@ -15,7 +15,7 @@ const Skills = () => {
         {skillsData.map((skill, index) => (
           <motion.div
             key={skill.id}
-            className="bg-[#111827] p-6 hover:bg-blue-800 transition-all duration-300 cursor-pointer text-center w-full flex flex-col items-center justify-center rounded-lg"
+            className="bg-[#111827] p-6 hover:bg-[#52b69a] hover:text-black transition-all duration-300 cursor-pointer text-center w-full flex flex-col items-center justify-center rounded-lg"
             initial={{ opacity: 0, x: -100 }} // Start off-screen (left)
             whileInView={{ opacity: 1, x: 0 }} // Move in when visible
             transition={{ duration: 0.6, delay: index * 0.2 }} // Delay each card

@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${font.className}  antialiased bg-[#001524]`}
+        className={`${font.className}  antialiased bg-[#184e77]`}
       >
         <ResponsiveNav/>
         {children}

@@ -24,7 +24,7 @@ const Services = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: service.id * 0.2 }}
               viewport={{ once: true }}
-              className="bg-[#D6CC99] p-8 shadow-lg rounded-lg min-h-[250px] h-full flex flex-col items-center text-center"
+              className="bg-[#34a0a4] p-8 shadow-lg rounded-lg min-h-[250px] h-full flex flex-col items-center text-center"
             >
               {/* Service Icon */}
               <Image src={service.icon} alt={service.title} width={80} height={80} />
