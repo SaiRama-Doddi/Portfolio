@@ -49,7 +49,10 @@ const page = () => {
               transition={{ duration: 0.5, delay: 0.4 }}
               className="md:px-8 py-2.5 px-6 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex items-center space-x-2 cursor-pointer"
             >
-              <span>Download CV</span>
+           <a href="/D.Rama-Resume.pdf" download>
+            <span>Download CV</span>
+            </a>
+
               <FaDownload />
             </motion.button>
           </div>
