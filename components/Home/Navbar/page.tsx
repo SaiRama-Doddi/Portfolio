@@ -31,7 +31,7 @@ const Nav = ({ openNav }: Props) => {
         
         {/* Logo */}
         <Image
-          src="/images/logo.png"
+          src="/images/logo.pngd"
           alt="logo"
           width={170}
           height={170}
