@@ -23,6 +23,44 @@ const Contact = () => {
     setFormData({ ...formData, [event.target.name]: event.target.value });
   };
 
+
+
+const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+
+  const payload = {
+    ...formData,
+    selectedOption,
+  };
+
+  console.log("Submitting payload: ", payload); // Debug log!
+
+  try {
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+
+    const result = await res.json();
+    console.log("API Response: ", result); // Debug log!
+
+    if (result.success) {
+      alert("Message sent successfully!");
+      setFormData({ firstName: "", lastName: "", email: "", phone: "", message: "" });
+      setSelectedOption("");
+    } else {
+      alert("Failed to send message.");
+    }
+  } catch (err) {
+    console.error("Submit error: ", err); // catch fetch errors
+    alert("Error submitting form");
+  }
+};
+
+
+
+
   return (
     <div className="flex flex-col sm:flex-row items-center justify-center mx-4 my-4 bg-black w-full py-10 px-6">
       {/* Contact Box */}
@@ -37,7 +75,8 @@ const Contact = () => {
         </p>
 
         {/* Contact Form */}
-        <form className="space-y-6 mt-6">
+        <form className="space-y-6 mt-6" onSubmit={handleSubmit}>
+
           {/* First & Last Name */}
           <div className="flex flex-col sm:flex-row gap-4">
             <input
@@ -105,7 +144,7 @@ const Contact = () => {
           </div>
 
           {/* Submit Button */}
-          <button className="w-full py-3 bg-blue-700 hover:bg-blue-900 text-white font-semibold rounded-lg transition duration-300">
+          <button className="w-full py-3 bg-blue-700 hover:bg-blue-900 text-white font-semibold rounded-lg transition duration-300 cursor-pointer">
             Send Message
           </button>
         </form>
